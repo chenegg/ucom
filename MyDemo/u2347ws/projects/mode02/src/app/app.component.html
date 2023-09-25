@@ -1,0 +1,23 @@
+<style>
+  ul li{
+    display:inline;
+  }
+
+  ul li a{
+    padding:0 5px;
+  }
+</style>
+
+<div style="text-align:cetner">
+  <h1>
+Weclcome to {{title}}
+  </h1>
+  <ul *ngFor="let r of routes">
+    <li><a [routerLink]='[r.path]'>{{r.title}}</a></li>
+  </ul>
+</div>
+
+<hr/>
+
+<router-outlet>
+</router-outlet>

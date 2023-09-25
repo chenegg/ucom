@@ -1,0 +1,22 @@
+<p>page1 works!!!{{title}}</p>
+
+<div *ngIf="member.length>0; else noMember">
+<ul>
+    <li *ngFor="let item of member;let i = index;let l=last">
+        {{i+1}}:{{item}}
+
+        <ng-container  *ngIf="l">
+          <hr>
+          <div>總共{{i+1}}筆</div>
+        </ng-container>
+
+        <div>
+          您查詢的成員是{{getName(2)}}
+        </div>
+    </li>
+</ul>
+</div>
+
+<ng-template #noMember>
+    <div>目前沒有會員</div>
+</ng-template>
