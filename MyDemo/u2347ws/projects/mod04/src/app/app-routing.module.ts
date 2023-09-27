@@ -5,6 +5,7 @@ import { Page2Component } from './page2/page2.component';
 import { Page3Component } from './page3/page3.component';
 import { Page4Component } from './page4/page4.component';
 import { Page5Component } from './page5/page5.component';
+import { Page7Component } from './page7/page7.component';
 
 export const routes: Routes = [
   { path: 'p1', component: Page1Component, title: 'page1' },
@@ -12,6 +13,7 @@ export const routes: Routes = [
   { path: 'p3', component: Page3Component, title: 'page3' },
   { path: 'p4', component: Page4Component, title: 'page4' },
   { path: 'p5', component: Page5Component, title: 'page5' },
+  { path: 'p7', component: Page7Component, title: 'page7' },
 ];
 
 @NgModule({
