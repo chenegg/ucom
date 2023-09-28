@@ -42,17 +42,13 @@
             "outputPath": "dist/mod01",
             "index": "projects/mod01/src/index.html",
             "main": "projects/mod01/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/mod01/tsconfig.app.json",
             "assets": [
               "projects/mod01/src/favicon.ico",
               "projects/mod01/src/assets"
             ],
-            "styles": [
-              "projects/mod01/src/styles.css"
-            ],
+            "styles": ["projects/mod01/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -103,18 +99,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/mod01/tsconfig.spec.json",
             "assets": [
               "projects/mod01/src/favicon.ico",
               "projects/mod01/src/assets"
             ],
-            "styles": [
-              "projects/mod01/src/styles.css"
-            ],
+            "styles": ["projects/mod01/src/styles.css"],
             "scripts": []
           }
         }
@@ -159,17 +150,13 @@
             "outputPath": "dist/mode02",
             "index": "projects/mode02/src/index.html",
             "main": "projects/mode02/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/mode02/tsconfig.app.json",
             "assets": [
               "projects/mode02/src/favicon.ico",
               "projects/mode02/src/assets"
             ],
-            "styles": [
-              "projects/mode02/src/styles.css"
-            ],
+            "styles": ["projects/mode02/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -220,18 +207,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/mode02/tsconfig.spec.json",
             "assets": [
               "projects/mode02/src/favicon.ico",
               "projects/mode02/src/assets"
             ],
-            "styles": [
-              "projects/mode02/src/styles.css"
-            ],
+            "styles": ["projects/mode02/src/styles.css"],
             "scripts": []
           }
         }
@@ -276,17 +258,13 @@
             "outputPath": "dist/mod04",
             "index": "projects/mod04/src/index.html",
             "main": "projects/mod04/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/mod04/tsconfig.app.json",
             "assets": [
               "projects/mod04/src/favicon.ico",
               "projects/mod04/src/assets"
             ],
-            "styles": [
-              "projects/mod04/src/styles.css"
-            ],
+            "styles": ["projects/mod04/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -337,18 +315,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/mod04/tsconfig.spec.json",
             "assets": [
               "projects/mod04/src/favicon.ico",
               "projects/mod04/src/assets"
             ],
-            "styles": [
-              "projects/mod04/src/styles.css"
-            ],
+            "styles": ["projects/mod04/src/styles.css"],
             "scripts": []
           }
         }
@@ -393,17 +366,13 @@
             "outputPath": "dist/mod05-demo",
             "index": "projects/mod05-demo/src/index.html",
             "main": "projects/mod05-demo/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/mod05-demo/tsconfig.app.json",
             "assets": [
               "projects/mod05-demo/src/favicon.ico",
               "projects/mod05-demo/src/assets"
             ],
-            "styles": [
-              "projects/mod05-demo/src/styles.css"
-            ],
+            "styles": ["projects/mod05-demo/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -454,18 +423,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/mod05-demo/tsconfig.spec.json",
             "assets": [
               "projects/mod05-demo/src/favicon.ico",
               "projects/mod05-demo/src/assets"
             ],
-            "styles": [
-              "projects/mod05-demo/src/styles.css"
-            ],
+            "styles": ["projects/mod05-demo/src/styles.css"],
             "scripts": []
           }
         }
@@ -510,17 +474,13 @@
             "outputPath": "dist/mod05",
             "index": "projects/mod05/src/index.html",
             "main": "projects/mod05/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/mod05/tsconfig.app.json",
             "assets": [
               "projects/mod05/src/favicon.ico",
               "projects/mod05/src/assets"
             ],
-            "styles": [
-              "projects/mod05/src/styles.css"
-            ],
+            "styles": ["projects/mod05/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -571,18 +531,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/mod05/tsconfig.spec.json",
             "assets": [
               "projects/mod05/src/favicon.ico",
               "projects/mod05/src/assets"
             ],
-            "styles": [
-              "projects/mod05/src/styles.css"
-            ],
+            "styles": ["projects/mod05/src/styles.css"],
             "scripts": []
           }
         }
@@ -627,17 +582,13 @@
             "outputPath": "dist/mod06",
             "index": "projects/mod06/src/index.html",
             "main": "projects/mod06/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/mod06/tsconfig.app.json",
             "assets": [
               "projects/mod06/src/favicon.ico",
               "projects/mod06/src/assets"
             ],
-            "styles": [
-              "projects/mod06/src/styles.css"
-            ],
+            "styles": ["projects/mod06/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -688,18 +639,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/mod06/tsconfig.spec.json",
             "assets": [
               "projects/mod06/src/favicon.ico",
               "projects/mod06/src/assets"
             ],
-            "styles": [
-              "projects/mod06/src/styles.css"
-            ],
+            "styles": ["projects/mod06/src/styles.css"],
             "scripts": []
           }
         }
@@ -744,17 +690,13 @@
             "outputPath": "dist/mod07",
             "index": "projects/mod07/src/index.html",
             "main": "projects/mod07/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/mod07/tsconfig.app.json",
             "assets": [
               "projects/mod07/src/favicon.ico",
               "projects/mod07/src/assets"
             ],
-            "styles": [
-              "projects/mod07/src/styles.css"
-            ],
+            "styles": ["projects/mod07/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -805,18 +747,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/mod07/tsconfig.spec.json",
             "assets": [
               "projects/mod07/src/favicon.ico",
               "projects/mod07/src/assets"
             ],
-            "styles": [
-              "projects/mod07/src/styles.css"
-            ],
+            "styles": ["projects/mod07/src/styles.css"],
             "scripts": []
           }
         }
@@ -861,17 +798,13 @@
             "outputPath": "dist/mod08",
             "index": "projects/mod08/src/index.html",
             "main": "projects/mod08/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/mod08/tsconfig.app.json",
             "assets": [
               "projects/mod08/src/favicon.ico",
               "projects/mod08/src/assets"
             ],
-            "styles": [
-              "projects/mod08/src/styles.css"
-            ],
+            "styles": ["projects/mod08/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -922,18 +855,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/mod08/tsconfig.spec.json",
             "assets": [
               "projects/mod08/src/favicon.ico",
               "projects/mod08/src/assets"
             ],
-            "styles": [
-              "projects/mod08/src/styles.css"
-            ],
+            "styles": ["projects/mod08/src/styles.css"],
             "scripts": []
           }
         }
@@ -978,16 +906,15 @@
             "outputPath": "dist/mod10",
             "index": "projects/mod10/src/index.html",
             "main": "projects/mod10/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/mod10/tsconfig.app.json",
             "assets": [
               "projects/mod10/src/favicon.ico",
               "projects/mod10/src/assets"
             ],
             "styles": [
-              "projects/mod10/src/styles.css"
+              "projects/mod10/src/styles.css",
+              "node_modules/ngx-toastr/toastr.css"
             ],
             "scripts": []
           },
@@ -1013,7 +940,13 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
+              "namedChunks": true,
+              "fileReplacements": [
+                {
+                  "replace": "projects/mod10/src/environments/environment.ts",
+                  "with": "projects/mod10/src/environments/environment.development.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -1039,17 +972,135 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/mod10/tsconfig.spec.json",
             "assets": [
               "projects/mod10/src/favicon.ico",
               "projects/mod10/src/assets"
             ],
+            "styles": ["projects/mod10/src/styles.css"],
+            "scripts": []
+          }
+        }
+      }
+    },
+    "mod11": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "inlineStyle": true,
+          "skipTests": true
+        },
+        "@schematics/angular:class": {
+          "skipTests": true
+        },
+        "@schematics/angular:directive": {
+          "skipTests": true
+        },
+        "@schematics/angular:guard": {
+          "skipTests": true
+        },
+        "@schematics/angular:interceptor": {
+          "skipTests": true
+        },
+        "@schematics/angular:pipe": {
+          "skipTests": true
+        },
+        "@schematics/angular:resolver": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
+        }
+      },
+      "root": "projects/mod11",
+      "sourceRoot": "projects/mod11/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/mod11",
+            "index": "projects/mod11/src/index.html",
+            "main": "projects/mod11/src/main.ts",
+            "polyfills": [
+              "zone.js"
+            ],
+            "tsConfig": "projects/mod11/tsconfig.app.json",
+            "assets": [
+              "projects/mod11/src/favicon.ico",
+              "projects/mod11/src/assets"
+            ],
             "styles": [
-              "projects/mod10/src/styles.css"
+              "projects/mod11/src/styles.css"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true,
+              "fileReplacements": [
+                {
+                  "replace": "projects/mod11/src/environments/environment.ts",
+                  "with": "projects/mod11/src/environments/environment.development.ts"
+                }
+              ]
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "mod11:build:production"
+            },
+            "development": {
+              "browserTarget": "mod11:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "mod11:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ],
+            "tsConfig": "projects/mod11/tsconfig.spec.json",
+            "assets": [
+              "projects/mod11/src/favicon.ico",
+              "projects/mod11/src/assets"
+            ],
+            "styles": [
+              "projects/mod11/src/styles.css"
             ],
             "scripts": []
           }

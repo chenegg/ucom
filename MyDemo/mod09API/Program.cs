@@ -7,6 +7,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+var AllowMyFrontEnd = "AllowMyFrontEnd";
+builder.Services.AddCors(options => options.AddPolicy(name: AllowMyFrontEnd, policy =>
+{
+    var allowCors = builder.Configuration["AppConfig:Cors"].Split(",");
+    policy.WithOrigins(allowCors).AllowAnyMethod().AllowAnyHeader();
+    //policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
+}));
+  
+builder.Services.AddControllers();
+
 builder.Services.AddControllers();
 builder.Services.AddDbContext<MeetingRoomContext>(options=>options.UseSqlServer(builder.Configuration.GetConnectionString("MeetingDB")));
 
@@ -31,7 +41,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors(AllowMyFrontEnd);
 app.UseAuthorization();
 
 app.MapControllers();
