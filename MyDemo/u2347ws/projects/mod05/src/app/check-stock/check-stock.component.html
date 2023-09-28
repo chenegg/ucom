@@ -1,0 +1,19 @@
+<style>
+  .cLower{
+    color:red;
+  }
+</style>
+
+
+<span [ngClass]="{cLower:lower}">
+
+<ng-container  select=".lower" *ngIf="lower;else enough">
+
+</ng-container>
+
+<ng-template #enough>
+  <ng-content select=".enough"></ng-content>
+</ng-template>
+{{info}}
+<!-- <button (click)="GetStock()">檢查庫存是否足夠</button> -->
+</span>

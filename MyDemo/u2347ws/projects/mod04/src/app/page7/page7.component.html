@@ -1,0 +1,32 @@
+<style>
+  .table{
+    display:table;
+  }
+
+
+  .row{
+    display:table-row;
+  }
+
+  .col{
+    display:table-cell;
+    width:150px;
+  }
+
+</style>
+
+<div class="table">
+  <div class="row" *ngFor="let st of students;let i = index;let o = odd" [style.background-color]="o?'yellow':''">
+    <div class="col">No.{{i+1}}</div>
+    <div class="col">{{st.Id}}</div>
+    <div class="col">{{st.Name}}</div>
+    <div class="col">{{st.Birthday | date:"MM-dd-yyyy"}}</div>
+
+    <div class="col">
+      <ng-container [ngSwitch]="st.Birthday.getMonth()" >
+        <span *ngSwitchCase="thisMonth" style="color:red">本月壽星</span>
+        <span *ngSwitchCase="thisMonth+1" style="color:red">生日快到了</span>
+        <span *ngSwitchDefault style="font-size:x-smaill">在等等吧</span>
+      </ng-container>
+  </div>
+</div>

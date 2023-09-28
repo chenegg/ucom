@@ -1,0 +1,12 @@
+<h1 #title1 inTheBox="solid 2px red">{{title}}</h1>
+購買數量:
+<input type="number" [(ngModel)]="QTY">
+<CheckStock [QTY]="QTY" [Stock]="Stock">
+<span #span class="lower">庫存不足，目前只有{{Stock}}</span>
+<span #span class="enough">目前庫存量足夠</span>
+
+</CheckStock>
+
+
+<div>USD2TWD:{{vMoney | USD2TWD | currency}}</div>
+
